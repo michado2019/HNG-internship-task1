@@ -1,0 +1,25 @@
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 143.5px;
+}
+#profile_img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+#twitter {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #101828;
+  width: 343px;
+  height: 28px;
+}
+#slack {
+  display: none;
+}
