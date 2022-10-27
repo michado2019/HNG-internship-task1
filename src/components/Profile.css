@@ -1,4 +1,17 @@
-.profileWrapper {
+.profileMenu-icon {
+  position: absolute;
+  width: 40px !important;
+  height: 40px !important;
+  cursor: pointer;
+  margin: 40px 20px;
+  margin-bottom: -20px;
+  right: 0px;
+  background: #ffffff;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+  color: #98a2b3;
+}
+.profileFlex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,12 +22,12 @@
   width: 88px;
   height: 88px;
   border-radius: 50%;
+  margin-top: -10px;
+  margin-bottom: 24px;
 }
 #twitter {
   font-size: 18px;
   font-weight: 700;
-  line-height: 28px;
-  letter-spacing: 0em;
   text-align: center;
   color: #101828;
   width: 343px;
@@ -23,3 +36,4 @@
 #slack {
   display: none;
 }
+
