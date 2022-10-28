@@ -41,7 +41,7 @@ export default function LinkSection() {
         Python Book
       </a>
       <a
-        href="https://background.zuri.team"
+        href="https://backgroundcheck.zuri.team"
         id="pitch"
         className="ZuriLinks"
         target="_blank"
