@@ -16,7 +16,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="footerSection-two">
-        <h2 className="footerSection-two_title">Zuri.Internship</h2>
+        <h2 className="footerSection-two_title">Zuri<span className="dot">.</span>Internship</h2>
         <p className="footerSection-two_details">
           HNG Internship 9 Frontend Task
         </p>
