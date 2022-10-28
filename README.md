@@ -1,1 +1,3 @@
-# HNG-internship-task1
+## HNG-internship-task1
+### This is an app created to contain a like Linktree that allows a person show their personal profile and link to various digital things that they sell
+#### Building....
