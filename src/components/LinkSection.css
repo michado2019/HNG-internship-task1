@@ -1,0 +1,29 @@
+.linkSection-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0 2%;
+}
+.ZuriLinks {
+  width: 96%;
+  height: 70px;
+  text-decoration: none;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #101828;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  border-radius: 12px;
+}
+.ZuriLinks:hover {
+  background: #101828;
+  color: #fff;
+  border: 1px solid #101828;
+  transition: 0.5s;
+}
