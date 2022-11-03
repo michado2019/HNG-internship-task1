@@ -28,6 +28,7 @@ export default function Contact() {
           id="email"
         />
         <textarea placeholder="Send me a message and I&#39;ll reply as soon as possible" className="contactInput" id='message' />
+        <input type='checkbox' id='btn__submit' />
       </form>
     </div>
   );
