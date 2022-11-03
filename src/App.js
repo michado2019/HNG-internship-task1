@@ -1,17 +1,14 @@
 import React from "react";
 import "./App.css";
-import LinkSection from "./components/LinkSection";
-import Profile from "./components/Profile";
-import Footer from "./components/Footer";
+import Footer from "./components/pages/Footer";
+import AppRouter from "./routes";
 
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <LinkSection />
+      <AppRouter />
       <Footer />
     </div>
   );
 }
-
 export default App;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./LinkSection.css";
+import { Link } from "react-router-dom";
 
 export default function LinkSection() {
   return (
@@ -58,6 +59,13 @@ export default function LinkSection() {
       >
         Design Books
       </a>
+      <Link
+        href="/contact"
+        id="contact"
+        className="ZuriLinks"
+      to='contact'>
+        Contact Me
+      </Link>
     </div>
   );
 }
