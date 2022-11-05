@@ -15,6 +15,7 @@ export default function Contact() {
   //Handle Focus
   const handleFocus = () => {
     document.getElementById("email").style.borderColor = "#84CAFF";
+    document.getElementById("textarea").style.display = "none";
   };
 
   //Handle change
@@ -24,7 +25,9 @@ export default function Contact() {
       ...inputs,
       [e.target.name]: e.target.value,
     });
-    if (inputs === {}) setStyle((prev) => !prev);
+    if (inputs === {}) {
+      setStyle((prev) => !prev);
+    }
   }
 
   const name = "Adeshina Michael";
@@ -88,8 +91,9 @@ export default function Contact() {
           onChange={handleChange}
           value={inputs.textarea}
           style={{ borderColor: inputs ? "#F83F23" : "#555555" }}
+          onFocus={handleFocus}
         />
-        <sub style={{ color: inputs ? "red" : "" }}>
+        <sub style={{ color: inputs ? "red" : "" }} id="textarea">
           Please, enter a message
         </sub>
         <input type="checkbox" id="checkbox" name="" value="" />
