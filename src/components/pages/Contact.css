@@ -40,6 +40,10 @@
   margin-bottom: 10px;
   padding: 4px 12px;
 }
+sub{
+  display: block;
+  margin-top: -5px;
+}
 #message {
   background: #ffffff;
   border: 1px solid #d0d5dd;
@@ -64,11 +68,21 @@
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
-  background: #1570ef;
-  border: 1px solid #1570ef;
+  background: #1570EF;
+  border: 1px solid #1570EF;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
   width: 100%;
   padding: 12px 20px;
   margin-top: 32px;
+}
+#btn__submit:hover {
+ background-color: #175CD3;
+ transition: all 0.3s;
+}
+#btn__submit:focus{
+  background-color: #1570EF;
+}
+#btn__submit:disabled{
+  background-color: #B2DDFF;
 }
